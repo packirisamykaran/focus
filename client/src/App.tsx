@@ -84,7 +84,7 @@ function App() {
                 Timer
               </Link>
               <Link to={"/goals"}>
-                goals
+                Goals
               </Link>
               <Link to={"/journal"}>
                 Journals
