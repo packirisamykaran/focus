@@ -7,6 +7,7 @@ import axios from 'axios';
 import { fixedContentType } from './components/types';
 import { BrowserRouter, HashRouter, Link, Outlet, Route, Routes } from 'react-router-dom';
 import "./components/style/App.css"
+import Journal from './components/journal/Journal';
 
 function App() {
   
@@ -95,7 +96,7 @@ function App() {
               <Routes>
                 <Route path="/" element = {<Timer timingProps ={{timing, timerStatus, setTimerStatus, settiming, setstartTiming,startTiming, settotalTiming, totalTiming }}/>} />
                 <Route path="/goals" element = {<div>Long term goals</div>} />
-                <Route path="/journal" element = {<div>journal</div>} />
+                <Route path="/journal" element = {<Journal/>} />
               </Routes>
             </div>
               
