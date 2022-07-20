@@ -1,0 +1,39 @@
+@import "./App.scss";
+
+.timer{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+
+    .display{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        color: $cyan-900;
+    }
+
+    button{
+        width: fit-content;
+        font-size: 1.1rem;
+        padding: 0.2rem 0.8rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        
+
+    }
+    
+    .start{
+        background-color: $violet-900;
+        color:white;
+    }
+
+    .reset{
+        color:white;
+        background-color: $rose-900;
+    }
+
+}

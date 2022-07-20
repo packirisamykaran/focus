@@ -28,3 +28,7 @@ pink-400
 rose-900
 
 */
+
+textarea {
+    resize: none;
+  }

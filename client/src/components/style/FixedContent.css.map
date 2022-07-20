@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAMA,AAEI,cAFU,CAEV,QAAQ,CAAA;EACJ,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,MAAM;EACf,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "FixedContent.scss"
+    ],
+    "names": [],
+    "file": "FixedContent.css"
+}
